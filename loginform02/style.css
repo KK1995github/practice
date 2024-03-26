@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: url(https://images.unsplash.com/photo-1707327259268-2741b50ef5e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHx8fA%3D%3D);
+    background-position: cover;
+    background-size: cover ;
+    background-repeat: no-repeat; 
+
+}
+
+.centerdiv{
+    position: absolute;
+    width: 350px;
+    background: slategrey ;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50% , -50%);
+    justify-content: center;
+    align-items: center;
+}
+.centerdiv h2 {
+margin-top: 20px;
+padding: 10px 10px;
+text-align: center;
+/* align-items: center; */
+}
+.inputdiv{
+    margin-top: 15px;
+
+}
+.inputdiv label{
+    font-family: sans-serif;
+    padding: 10px;
+    
+}
+input{
+    width: 80%;
+    margin-left: 25px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 6px;
+
+}
+.btndiv{
+    text-align: center;
+}
+.btndiv button{
+    margin-top: 25px;
+    width: 60%;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding:  5px 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+.btndiv button:hover{
+    color: black;
+    background-color: slategray;
+    transition: ease-in-out 0.3s;
+    font-size: 20px;
+}
+

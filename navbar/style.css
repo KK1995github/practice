@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+} */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    background-color: gray;
+    color: aliceblue;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+
+}
+.nav-links li a{
+    transition: all0.3s ease;
+    color: white;
+}
+.nav-links li a:hover{
+    color: #118fae;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    background-color: white;
+    opacity: 0.5;
+}
+i{
+    padding: 9px 25px;
+    background-color: hsl(192, 69%, 42%);
+    border: none;
+    color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all0.3s ease 0s;
+}
+.centerdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.centerdiv .left{
+    margin-top: 20px;
+    align-items: center;
+    background: #0088a9;
+    padding: 150px ;
+}
+.centerdiv .left .h3{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.centerdiv .left p{
+    font-style: italic;
+}
+
+.centerdiv .ryt img{
+    width: 400px;
+    object-fit: cover;
+    height: 600px;
+    border-radius: 180px 0 180px 0;
+    margin-right: 25px;
+}
+footer{
+    margin-top: 25px;
+    background-color: grey;
+    color: black;
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+

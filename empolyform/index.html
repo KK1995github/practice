@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="maindiv">
+        <label class="uprwalelbl" for="username">Username</label><br>
+        <input class="input1" type="text" placeholder="Enter username"><br>
+
+        <label class="uprwalelbl" for="password">Password</label><br>
+        <input class="input1" type="password" placeholder="Enter password"><br>
+        <p class="fikap">Your password is between 4 to  12 characters</p><br>
+        
+        <label class="uprwalelbl" >Input Text Label</label><br>
+        <div class="maintyping">
+           <div>
+            <p class="typingp">Typing    |</p>
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+           </div> 
+        </div>
+        <p class="redp">Error message informing me of a problem</p><br>
+        
+        <div class="rememberdiv">
+            <input  class="boxcheck" type="checkbox">
+            <label> Remember me</label>
+        </div><br>
+      
+        <!-- ...... -->
+             
+        <div class="switchdiv">
+        <input  class="offcheck" type="checkbox" name="checkbox" id="toggle">
+        <label for="toggle" class="switch"></label>
+        <span class="fontp">Off</span>
+         </div><br> 
+
+        <!-- ..... -->
+        <div class="radiodiv">
+        <div class="radiodiv2">
+            <input class="gol" type="radio">
+            <label>Radio selection 1</label><br>
+        </div>
+        <div class="radiodiv2">
+            <input class="gol" type="radio">
+            <label>Radio selection 2</label><br>
+        </div>
+        <div class="radiodiv2">
+            <input class="gol" type="radio">
+            <label>Radio selection 3</label><br>
+        </div>
+       
+        
+         </div>
+          
+        <div class="dropdiv">
+        <label>Dropdown Title</label>
+        </div>
+
+           <select class="began" name="Dropdown option">
+            <option value="Dropdown option">Dropdown option</option>
+            <option  value="Dropdown option1">Dropdown option 1</option>
+            <option value="Dropdown option 2">Dropdown option 2</option>
+             </select>
+         </div><br>
+
+        <div class="btndiv">
+            <button class="cancelbtn">Cancel</button>
+            <button class="nxtbtn">Next</button>
+        
+
+      </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+ 
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background: grey;
+    /* font-family: "" sans-serif; */
+}
+table{
+    text-align: left;
+}
+table{
+    background-color: white;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+
+}
+td{
+  border-bottom: 1px solid rgb(142, 129, 129);
+  font-size: 12px;
+  padding-left: 10px;
+  opacity: 0.8;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 5px;
+  /* border-collapse: collapse; */
+
+}
+th{
+  border-bottom: 1px solid rgb(142, 129, 129);
+  padding-left: 10px;
+  color: rgb(177, 175, 175);
+}
+td:first-child{
+  color: rgb(23, 180, 197);
+  
+}
+.fa-sort{
+  color: black;
+}
+th{
+
+}
+
+
+
+
+  /* icons */
+  .fa-eye{
+    color: rgb(32, 212, 212);
+    opacity: 1;
+  }
+  .fa-chart-simple{
+    color: rgb(22, 225, 22);
+    opacity: 1;
+  }
+  .fa-trash{
+    opacity: 1;
+    color: rgb(227, 73, 13);
+  }
+  
